@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  color: #3a2722;
+  background: #d8c2a8;
+  line-height: 1.6;
+}
+
+header, footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #7a1f2b;
+  color: #fff8ef;
+}
+
+nav a {
+  margin: 0 .75rem;
+  color: #fff8ef;
+  text-decoration: none;
+}
+
+main {
+  max-width: 760px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.hero,
+main section,
+article {
+  background: #f3e4d2;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+}
+
+.button {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  background: #7a1f2b;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+article {
+  border-bottom: 3px solid #7a1f2b;
+}
+
+.formkit-submit {
+  background-color: #7a1f2b !important;
+}
+
+.formkit-input {
+  border-color: #b89b7c !important;
+}
